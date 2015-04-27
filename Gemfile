@@ -13,7 +13,10 @@ ruby '2.2.1'
  gem 'bootstrap-sass', '~> 3.3.4'
  gem "paperclip", "~> 4.2" 
 
- 
+ group :production do 
+ 	gem 'pg'
+ 	gem 'rails_12factor'
+ end 
 
 group :development, :test do
 	gem 'sqlite3'
