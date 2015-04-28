@@ -1,4 +1,4 @@
-/Users/christian/.rvm/rubies/ruby-2.2.1/bin/ruby -r ./siteconf20150427-28642-13xkhbf.rb extconf.rb
+/Users/christian/.rvm/rubies/ruby-2.2.1/bin/ruby -r ./siteconf20150427-50066-108mexr.rb extconf.rb
 checking for pg_config... no
 No pg_config... trying anyway. If building fails, please try again with
  --with-pg-config=/path/to/pg_config
