@@ -3,7 +3,7 @@ class OrdersController < ApplicationController
   before_action :authenticate_user!
 
  def sales
-    @orders = Order.all.where(seller: current_user).order("created_at DESC")
+    @orders = Order.all.where(seller: current_user).order('created_at DESC')
  end
 
  def purchases
